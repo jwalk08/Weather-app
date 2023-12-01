@@ -60,6 +60,7 @@ const getWeatherClass = (weatherCondition) => {
             break;
     }
     audioElement.play();
+    videoElement.play();
 
     return weatherCondition;
 };
